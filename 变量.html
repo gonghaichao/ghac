@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+ p {
+        text-transform: capitalize;
+    }
+</style>
+<body>
+    <p>aaa bbb ccc ddd</p>
+    <script>
+        // var a="1";
+        // function b() {
+        //     var a="2";
+        //      console.log(a);       
+        // }
+        // b();
+        // var str=" weather is good today";
+        // function wordcase(s) {
+        //     str=s.toLowerCase.split(/\s+/);
+        //     console.log(str);
+        //     for(var i=0;i<str.length;i++){
+        //         str[i]=str[i].slice(0,1).toUpperCase() + str[i].slice(1);
+        //     }
+        //     return str.join(' ');
+        // }
+        // console.log(wordcase(str));
+
+        // var f=function (){
+        //     console.log(2);
+        // }
+        // f();
+        // function f() {
+        //     console.log(1);     
+        // }
+        // f();
+        //   var str="learning English is my favorite";
+        //   function wordcase (s){
+        //       var str=s.toLowerCase().split(' ');
+        //       for(let i=0;i<str.length;i++){
+        //           str[i]=str[i].slice(0,1).toUpperCase() + str[i].slice(1);
+        //       }
+        //       return str.join(' ');
+        //   }
+        //   console.log(wordcase(str));
+        // function wordcase(s) {
+        //     var str = s.toLowerCase().split(' ');
+        //     for (let i = 0; i < str.length; i++) {
+        //         var char = str[i].charAt(0);
+        //         var newchar=char.toUpperCase();
+        //         str[i] = str[i].replace(char, newchar);
+        //     }
+        //     return str.join(' ');
+
+        // }
+        // console.log(wordcase('she today how are you?'));
+        // function add(a,b) {
+        //     alert(a + b);
+        // }
+        // function sub(a,b){
+        //     alert(a-b);
+        // }
+        // add.call(sub,3,1);
+        // function Animal(){
+        //     this.name = "Animal";
+        //     this.showName=function () {
+        //         alert(this.name);
+        //     };
+        // }
+        // function Cat (){
+
+        //     this.name="Cat";
+        // }
+        // var animal = new Animal();
+        // var cat = new Cat();
+        // animal.showName.call(cat,",");
+        // animal.showName.apply(cat,[]);
+        // function Animal(name) {
+        //     this.name=name;
+        //     this.showName = function () {
+        //         alert(this.name);
+        //     }
+        // }
+        // function Cat(name) {
+        //     Animal.call(this,name);
+        // }
+        // var cat = new Cat("Black Cat");
+        //     cat.showName();
+//    var arr=[1.233,5,6];
+//    var newarr=[7,6];
+//   console.log( arr.concat(newarr));
+//  1 1 2 3 5 8 13 斐波那契数列
+var fib = function (n){
+  if(n<=2){
+    return 1;
+  }
+  return fib(n-1) + fib(n-2); 
+//   retune fib(3)          + fib(2)
+//   return fib(2) + fib(1) +fib(2) 
+//   return 1      +  1     + 1
+}
+console.log(fib(3));
+
+// var fib = function (n){
+//   var a1=1,a2=1,a3=0;
+//   if(n<=2){
+//     return 1;
+//   }
+//   for(var i = 0;i < n-1;i++){
+//     a3 = a1 + a2;
+//     a1 = a2;
+//     a2 = a3;
+//   }
+//   return a3;  
+// }
+// console.log(fib(5));
+  //  var str="today she is beautiful and cute";
+  // //   var s=   str.toLowerCase().split(' ');
+  // //  for(let i=0;i<s.length;i++){
+  // //      s[i]=s[i].slice(0,1).toUpperCase() + s[i].slice(1);
+  // //  }
+  // // var a= s.join(' ');
+  // // console.log(a);
+  // function wordCase(s) {
+  //   var str=s.toLowerCase().split(' ');
+  //   for(let i=0;i<str.length;i++){
+  //     str[i] = str[i].slice(0,1).toUpperCase() + str[i].slice(1);
+  //   }
+  //   return str.join(' ');
+  // }'
+  // console.log(wordCase(str));
+ 
+  </script>
+</body>
+
+</html>
